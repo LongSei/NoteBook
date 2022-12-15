@@ -3,6 +3,10 @@
 using ll = long long;
 using ull = unsigned long long;
 using ld = long double;
+mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
+ll get_rand(ll B) {
+	return (ull)rng() % B;
+}
 ll mult(ll x, ll y, ll md) {
     ull q = (ld)x * y / md;
     ll res = ((ull)x * y - q * md);

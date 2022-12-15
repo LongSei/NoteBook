@@ -1,3 +1,5 @@
+// Time complexity: O(k*log^2(n))
+
 inline uint64_t mod_mult64(uint64_t a, uint64_t b, uint64_t m) {
     return __int128_t(a) * b % m;
 }

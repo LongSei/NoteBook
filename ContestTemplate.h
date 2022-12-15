@@ -1,3 +1,5 @@
+#include<bits/stdc++.h>
+using namespace std;
 // DEBUG TEMPLATE //
 void __print(int x) {cerr << x;}
 void __print(long x) {cerr << x;}

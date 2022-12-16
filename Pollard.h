@@ -1,3 +1,4 @@
+// Pollard Aho using to factorize a number into prime
 // Time complexity: O(N^0.25)
 
 using ll = long long;

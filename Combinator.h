@@ -1,3 +1,7 @@
+// Combinator Caculator
+// Prepared: O(n), Calculate: O(1)
+// Tested: 
+// - https://codeforces.com/contest/1763/problem/D
 int fact[MAX], inv[MAX];
 
 void init(int n) {

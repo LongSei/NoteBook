@@ -3,6 +3,7 @@
 // - Query history information at version t
 // Tested:
 // - https://oj.vnoi.info/problem/vnoicup22_r2_c
+// - https://oj.vnoi.info/problem/icpc22_national_a
 
 int unite[MAX], par[MAX], siz[MAX];
 void init() {

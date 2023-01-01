@@ -1,4 +1,5 @@
 // Lazy segment tree using for solve sum problems
+// Time complexity: O(logn)
 // Tested: https://oj.vnoi.info/problem/bedao_g11_easyquery
 
 struct Node {
